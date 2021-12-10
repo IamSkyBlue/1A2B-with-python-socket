@@ -3,7 +3,7 @@ import re
 import random
 
 HOST = "127.0.0.1"
-PORT = 5487
+PORT = 4200
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((HOST, PORT))
